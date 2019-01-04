@@ -26,7 +26,7 @@ See [configuration](config.md) flags and variables.
 
 A `Store` stores machine Groups, Profiles, and associated Ignition configs, cloud-configs, and generic configs. By default, `matchbox` uses a `FileStore` to search a `-data-path` for these resources.
 
-Prepare `/var/lib/matchbox` with `groups`, `profile`, `ignition`, `cloud`, and `generic` subdirectories. You may wish to keep these files under version control.
+Prepare `/var/lib/matchbox` with `groups`, `profiles`, `ignition`, `cloud`, and `generic` subdirectories. You may wish to keep these files under version control.
 
 ```
  /var/lib/matchbox
